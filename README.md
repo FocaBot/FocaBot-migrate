@@ -18,3 +18,9 @@ For the sake of simplicity, data from the "player" module is excluded from the m
  
  - A `data.db` file will be created inside the directory. Copy that file
    over to the FocaBot 1.x directory (~/.focaBot/ if you installed it via npm)
+
+# Redis
+
+If you want to keep using redis for FocaBot, use the `migrate-redis.js` script instead.
+
+Also, make sure to put `USE_REDIS=true` in the `.env` file.
